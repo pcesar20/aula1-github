@@ -95,7 +95,7 @@ public class CadastroCliente extends javax.swing.JInternalFrame {
     }//GEN-LAST:event_PessoafisicaActionPerformed
 
     private void PessoajuridicaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PessoajuridicaActionPerformed
-    ClienteJuridica obj = new ClienteJuridica();
+    ClienteJuridica = new ClienteJuridica();
         jdpCadastroCliente.add(obj);
         obj.setVisible(true);
     }//GEN-LAST:event_PessoajuridicaActionPerformed

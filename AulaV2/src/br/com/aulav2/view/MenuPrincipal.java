@@ -1,6 +1,7 @@
 package br.com.aulav2.view;
 
 import br.com.aulav2.view.Cliente.CadastroCliente;
+import javax.swing.JOptionPane;
 
 public class MenuPrincipal extends javax.swing.JFrame {
 
@@ -9,6 +10,8 @@ public class MenuPrincipal extends javax.swing.JFrame {
      */
     public MenuPrincipal() {
         initComponents();
+        JOptionPane.showConfirmDialog(this, "HUEHEUEHE");
+                
     }
 
     /**
